@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <div className="app">
+    <div className="navbar-container">
       <h1>Bookstore</h1>
       <nav className="navbar">
         <ul className="nav-items">

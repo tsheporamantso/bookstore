@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 
 function Book({ title, author }) {
   return (
-    <div>
+    <div className="booklist">
       <h2>List of Books</h2>
       <ul>
-        <li>
+        <li className="bookitems">
           <p>{title}</p>
           <p>{author}</p>
           <button type="button" className="button key">Remove</button>
