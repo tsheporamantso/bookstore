@@ -11,7 +11,7 @@ function Navbar() {
             <Link to="/">Books</Link>
           </li>
           <li className="nav-links">
-            <Link to="/categories">categories</Link>
+            <Link to="/categories">Categories</Link>
           </li>
         </ul>
       </nav>
