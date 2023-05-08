@@ -5,7 +5,7 @@
   <h1>Gladwin Tshepo Ramantso<h1>
   <br/>
 
-  <h3><b>Booksore</b></h3>
+  <h3><b>Bookstore</b></h3>
 
 </div>
 
@@ -158,7 +158,6 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add reducers and actions**
 - [ ] **Use Redux in React components**
 - [ ] **Connect to API**
 - [ ] **Styling**
