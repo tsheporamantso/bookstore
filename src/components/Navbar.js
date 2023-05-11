@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { GoPerson } from 'react-icons/go';
+
 
 function Navbar() {
   return (
@@ -12,6 +14,9 @@ function Navbar() {
           </li>
           <li className="nav-links">
             <Link to="/categories">Categories</Link>
+            <li className="icon-container">
+              <GoPerson className="mask-icon" />
+            </li>
           </li>
         </ul>
       </nav>
