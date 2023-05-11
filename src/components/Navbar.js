@@ -1,18 +1,25 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { GoPerson } from 'react-icons/go';
 
 function Navbar() {
   return (
-    <div className="navbar-container">
-      <h1>Bookstore</h1>
-      <nav className="navbar">
-        <ul className="nav-items">
-          <li className="nav-links">
-            <Link to="/">Books</Link>
+    <div className="app">
+      <nav>
+        <ul className="navContainer">
+          <li className="navHeader">
+            <h1>Bookstore CMS</h1>
           </li>
-          <li className="nav-links">
-            <Link to="/categories">Categories</Link>
+          <li>
+            <Link className="navBooks" to="/">Books</Link>
           </li>
+          <li>
+            <Link className="navCategories" to="/categories">Categories</Link>
+          </li>
+          <li className="icon-container">
+            <GoPerson className="mask-icon" />
+          </li>
+
         </ul>
       </nav>
     </div>
